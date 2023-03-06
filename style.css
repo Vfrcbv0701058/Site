@@ -1,0 +1,99 @@
+html{
+	background-color: #f3f3f3;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;	/* Позиционирование */
+	position: absolute;
+	width: 10%; 				/* Ширина */
+	height: auto;				/* Высота */
+	left: 17%; 					/* Растояние от левого края */
+	top: 5%; 
+}  
+
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+  
+.menu a{
+	text-decoration: none; 		/* Убирает подчеркивание ссылок в меню */	  
+}
+
+.menu ul li{
+	margin-right: 25%;			/* Отступы между словами */	
+	white-space: nowrap; 		/* Не дает перенести слова на новую строку */
+	font-family: 'Catamaran';	/* Шрифт */
+	font-style: normal;			/* Курсив, не курсив и тд и тп */
+	font-weight: 600;			/* Толщина */
+	font-size: 24px;			/* Размер шрифта */
+	line-height: 39px;			/* Величина пространства между строками */
+	text-transform: uppercase;	/* Делает текст большими буквами */
+}
+
+.about{
+	color: #000000;
+}
+
+.price{
+	
+	color: #000000;
+}
+
+.kontakt{
+	color: #000000;
+}
+
+.home{
+	color: #000000;
+}
+
+.top_tekst{
+	justify-content: center;	/* Позиционирование */
+
+}
+.tekst {
+	margin-right: 10%;			/* Отступы между словами */	
+	font-family: 'Montserrat';	/* Шрифт */
+	font-style: normal;			/* Курсив, не курсив и тд и тп */
+	font-weight: 700;			/* Толщина */
+	font-size: 20px;			/* Размер шрифта */
+	line-height: 30px;			/* Величина пространства между строками */
+	text-transform: none;		/* Делает текст большими буквами */
+
+}
+
+.Audi {
+	/*position: absolute;
+	right: 0%;					разобраться с этим дерьмом
+	top: 0%;*/
+	width: 100%;
+	max-width: 900px;
+	height: auto;
+	object-fit: contain;
+	margin-right: 0;
+	margin-left: auto;
+	z-index: 0;
+}
+
+BODY {
+	margin: 0; 	/* Убираем отступы в браузере */
+	padding: 0; /* Убираем внутрение отступы */
+}
+
+.map-image{
+	width: 100%;
+	max-width: 730px;
+	height: auto;
+}
+
