@@ -2,37 +2,25 @@ html{
 	background-color: #f3f3f3;
 }
 
-header {
-	width: 100%;
-	display: flex;
-	align-items: flex-start;
-	justify-content: flex-end;
-}
-
 .menu {
-	display: flex;
-	justify-content: center;	/* Позиционирование */
-	position: absolute;
-	width: 10%; 				/* Ширина */
 	height: auto;				/* Высота */
 	left: 17%; 					/* Растояние от левого края */
 	top: 5%; 
 }  
 
 .menu ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+	margin: 20px 80px; /* отступы меню */
 	display: flex;
+	column-gap: 32px;
+	list-style: none;
+	padding: 0;
 }
   
 .menu a{
 	text-decoration: none; 		/* Убирает подчеркивание ссылок в меню */	  
 }
 
-.menu ul li{
-	margin-right: 25%;			/* Отступы между словами */	
-	white-space: nowrap; 		/* Не дает перенести слова на новую строку */
+.menu ul li {
 	font-family: 'Catamaran';	/* Шрифт */
 	font-style: normal;			/* Курсив, не курсив и тд и тп */
 	font-weight: 600;			/* Толщина */
@@ -70,20 +58,20 @@ header {
 	font-size: 20px;			/* Размер шрифта */
 	line-height: 30px;			/* Величина пространства между строками */
 	text-transform: none;		/* Делает текст большими буквами */
-
+	width: 50%;
 }
 
 .Audi {
-	/*position: absolute;
-	right: 0%;					разобраться с этим дерьмом
-	top: 0%;*/
+	position: absolute;
+	right: 0%;		
+	top: 0%;
+	z-index: -1;
 	width: 100%;
-	max-width: 900px;
+	max-width: 750px;
 	height: auto;
 	object-fit: contain;
 	margin-right: 0;
 	margin-left: auto;
-	z-index: 0;
 }
 
 BODY {
