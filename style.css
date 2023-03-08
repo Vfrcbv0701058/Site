@@ -1,69 +1,88 @@
-html{
+html {
 	background-color: #f3f3f3;
 }
 
 .menu {
-	height: auto;				/* Высота */
-	left: 17%; 					/* Растояние от левого края */
-	top: 5%; 
-}  
+	height: auto;
+	/* Высота */
+	left: 17%;
+	/* Растояние от левого края */
+	top: 5%;
+}
 
 .menu ul {
-	margin: 20px 80px; 			/* отступы меню */
+	margin: 20px 80px;
+	/* отступы меню */
 	display: flex;
 	column-gap: 32px;
 	list-style: none;
 	padding: 0;
 }
 
-.menu a{
-	text-decoration: none; 		/* Убирает подчеркивание ссылок в меню */	  
+.menu a {
+	text-decoration: none;
+	/* Убирает подчеркивание ссылок в меню */
 }
 
 .menu ul li {
-	font-family: 'Catamaran';	/* Шрифт */
-	font-style: normal;			/* Курсив, не курсив и тд и тп */
-	font-weight: 600;			/* Толщина */
-	font-size: 24px;			/* Размер шрифта */
-	line-height: 39px;			/* Величина пространства между строками */
-	text-transform: uppercase;	/* Делает текст большими буквами */
+	font-family: 'Catamaran';
+	/* Шрифт */
+	font-style: normal;
+	/* Курсив, не курсив и тд и тп */
+	font-weight: 600;
+	/* Толщина */
+	font-size: 24px;
+	/* Размер шрифта */
+	line-height: 39px;
+	/* Величина пространства между строками */
+	text-transform: uppercase;
+	/* Делает текст большими буквами */
 }
 
-.about{
+.about {
 	color: #000000;
 }
 
-.price{
-	
+.price {
+
 	color: #000000;
 }
 
-.kontakt{
+.kontakt {
 	color: #000000;
 }
 
-.home{
+.home {
 	color: #000000;
 }
 
-.top_tekst{
-	justify-content: center;	/* Позиционирование */
-
+.top {
+	justify-content: center;
 }
+
+.top_tekst {
+
+	margin-top: 5rem;
+	/**/
+}
+
 .tekst {
-	margin-right: 10%;			/* Отступы между словами */	
-	font-family: 'Montserrat';	/* Шрифт */
-	font-style: normal;			/* Курсив, не курсив и тд и тп */
-	font-weight: 700;			/* Толщина */
-	font-size: 20px;			/* Размер шрифта */
-	line-height: 30px;			/* Величина пространства между строками */
-	text-transform: none;		/* Делает текст большими буквами */
+	font-family: 'Montserrat';
+	/* Шрифт */
+	font-style: normal;
+	/* Курсив, не курсив и тд и тп */
+	font-size: 20px;
+	/* Размер шрифта */
+	line-height: 28px;
+	/* Величина пространства между строками */
+	text-transform: none;
+	/* Делает текст большими буквами */
 	width: 50%;
 }
 
 .Audi {
 	position: absolute;
-	right: 0%;		
+	right: 0%;
 	top: 0%;
 	z-index: -1;
 	width: 100%;
@@ -75,13 +94,14 @@ html{
 }
 
 BODY {
-	margin: 0; 	/* Убираем отступы в браузере */
-	padding: 0; /* Убираем внутрение отступы */
+	margin: 0;
+	/* Убираем отступы в браузере */
+	padding: 0;
+	/* Убираем внутрение отступы */
 }
 
-.map-image{
+.map-image {
 	width: 100%;
 	max-width: 730px;
 	height: auto;
 }
-
