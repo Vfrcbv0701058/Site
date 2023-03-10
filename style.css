@@ -102,6 +102,10 @@ BODY {
 	line-height: 46px;
 }
 
+.map {
+	text-align: center;
+}
+
 .map-image {
 	text-align: center;
 	max-width: 750px;
