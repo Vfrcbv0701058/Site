@@ -110,3 +110,38 @@ BODY {
 	text-align: center;
 	max-width: 750px;
 }
+
+.slider {
+	display: flex;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+	align-items: center;
+}
+
+.slider:before {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	/* content: **; */
+	width: 23.958%;
+	height: 110px;
+	background: linear-gradient(-90deg, hsla(0, 0%, 96.9%, 0), #f7f7f7);
+}
+
+.slider:after {
+	position: absolute;
+	right: 0;
+	width: 23.958%;
+	height: 110px;
+	background: linear-gradient(90deg hsla(0, 0, 96.6%, 0),
+			hsla(0, 0%, 96.6%, 0.99) 99%);
+}
+
+.slider .slide_track {
+	display: flex;
+	animation: scroll 35s linear infinite;
+	-webkit-animation: scroll 35s linear infinite;
+	width: calc(240px*10);
+
+}
